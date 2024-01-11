@@ -17,11 +17,11 @@ export default function ProfilePage() {
     return (
         <Container maxW={"1200px"} p={5}>
             <Heading>{"Owned NFT(s)"}</Heading>
-            <Text>You own the NFT's from top 1000 wonders of the world</Text>
+            <Text>You own the NFTs from top 1000 wonders of the world</Text>
             <NFTGrid 
                 data={ownedNfts}
                 isLoading={loadingOwnedNfts}
-                emptyText={"You don't own any top 1000 wonders of the world yet."}
+                emptyText={"You dont own any top 1000 wonders of the world yet."}
             />
         </Container>
     )
